@@ -1,0 +1,132 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #222;
+    color: white;
+    padding: 15px;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+/* NAV */
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00c3ff;
+}
+
+/* SECTIONS */
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* INICIO */
+
+.inicio {
+    background: linear-gradient(to right, #00c3ff, #005bea);
+    color: white;
+}
+
+/* GRID PRODUCTOS */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* PRODUCT CARD */
+
+.producto {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* ESPECIFICACIONES */
+
+.especificaciones {
+    background: #f1f1f1;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* BOTÓN COMPRAR */
+
+.btn-comprar {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background: #005bea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-comprar:hover {
+    background: #00c3ff;
+}
+
+/* FOOTER */
+
+footer {
+    background: #111;
+    color: white;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* FORM */
+
+form input {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+}
+
+button {
+    padding: 8px;
+    background: #00c3ff;
+    border: none;
+    color: white;
+}
